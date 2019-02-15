@@ -27,6 +27,11 @@ J3me/JSb4Z++5yc2qRfyt/VqtQAAAABJRU5ErkJggg==
 				<attributeType name="Long"/>
 			</attributeTypes>
 		</property>
+        <property key="attributeName" type="string" required="true" defaultValue="cssSelectorHelper">
+            <caption>Attribute name to set</caption>
+			<category>Common</category>
+            <description>The attribute name to set. The default is the value originally used by the widget.</description>
+        </property>
 		<property key="applyTo" type="enumeration" required="true" defaultValue="Sibling">
 			<caption>Render as</caption>
 			<category>Common</category>
@@ -40,6 +45,6 @@ J3me/JSb4Z++5yc2qRfyt/VqtQAAAABJRU5ErkJggg==
             <caption>CSS selector</caption>
 			<category>Common</category>
             <description>When specified, this CSS selector is used to locate the element, rather than the direct parent or sibling</description>
-        </property>                		
+        </property>
     </properties>
 </widget>
